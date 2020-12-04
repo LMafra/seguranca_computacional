@@ -51,3 +51,7 @@ Caso queira limpar o diretório e remover os arquivos gerados, basta executar:
 ## Limitações e Bugs
 
 * As chaves pública e privada são geradas em arquivos, mas não aparecem no terminal.
+
+## Extra
+
+Código adaptado de: [bavlayan/Encrypt-Decrypt-with-OpenSSL---RSA](https://github.com/bavlayan/Encrypt-Decrypt-with-OpenSSL---RSA)
