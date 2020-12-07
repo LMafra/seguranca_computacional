@@ -29,12 +29,16 @@ Como atividade de implementação, deve-se implementar um gerador e verificador 
 #### O que é RSA?
 
 RSA é um sistema de criptografia de chave pública e é bastante utilizado para transmissão segura de dados. Neste sistema de criptografia, a chave de encriptação é pública e é diferente da chave de decifração, que é privada. Essa assimetria é baseada na fatorização do produto de dois números primos grandes, conhecido como "Problema de Fatoração".
-
-#### Assinatura Digital
-
 ## Funcionamento do Projeto
 
-## Compilação do Código
+### Descrição das Funções
+
+#### Funções construídas
+* create_RSA: Função responsável pela criação das chaves públicas e privadas.
+* public_encrypt: Função responsável pela criptografia da mensagem utilizando a chave pública criada.
+* private_decrypt: Função responsável pela decifração da mensagem utilizando a chave privada criada.
+* create_encrypted_file: Função responsável pela criação do arquivo criptografado .bin
+### Compilação do Código
 
 Para compilar o código, basta executar:
 ```c
